@@ -1,0 +1,21 @@
+<template>
+    <p>Sorting in Apex:</p>
+
+    <template if:true={stringsSortedInApex}>
+        <template for:each={stringsSortedInApex} for:item="string">
+            <ul key={string.stringValue}>
+                <li>{string.stringValue}</li>
+            </ul>
+        </template>
+    </template>
+
+    <p>Sorting in LWC:</p>
+
+    <template if:true={stringsSortedInJS}>
+        <template for:each={stringsSortedInJS} for:item="string">
+            <ul key={string}>
+                <li>{string}</li>
+            </ul>
+        </template>
+    </template>
+</template>

@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "TestTask",
+      "versionName": "Version 1.0",
+      "versionNumber": "1.0.0.NEXT",
+      "versionDescription": "Test Task Package"
+    }
+  ],
+  "name": "Test",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "57.0",
+  "packageAliases": {
+    "TestTask": "0Ho5j000000TNP2CAO",
+    "TestTask@1.0.0-1": "04t5j000000QnpyAAC"
+  }
+}
